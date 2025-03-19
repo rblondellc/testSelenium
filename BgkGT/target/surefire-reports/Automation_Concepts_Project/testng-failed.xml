@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Automation_Concepts_Project]" verbose="0">
+  <parameter name="URL_PRINCIPAL" value="http://the-internet.herokuapp.com/login"/>
+  <test thread-count="5" name="TestBase(failed)" verbose="0">
+    <classes>
+      <class name="cl.evaluacion.qa.tests.TestTrello">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="closeExtentReports"/>
+          <include name="inicioSesion"/>
+          <include name="configExtentReports"/>
+          <include name="configSelenium"/>
+        </methods>
+      </class> <!-- cl.evaluacion.qa.tests.TestTrello -->
+    </classes>
+  </test> <!-- TestBase(failed) -->
+</suite> <!-- Failed suite [Automation_Concepts_Project] -->

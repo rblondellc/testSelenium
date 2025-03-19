@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<!--<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >-->
+
+<suite name="Automation_Concepts_Project">
+
+	<parameter name="URL_PRINCIPAL" value="http://the-internet.herokuapp.com/login"/>
+	
+	<test name="TestBase">
+		<classes>
+			<class name="cl.evaluacion.qa.tests.TestTrello">
+				<methods>
+					
+					<!-- Caso 01: Iniciar Sesion  /> -->
+					
+					<include name="inicioSesion" />
+					
+					 
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,5 @@
+cl/evaluacion/qa/pages/PaginaPrincipalPage.class
+cl/evaluacion/qa/tests/TestTrello.class
+cl/evaluacion/qa/pages/LoginPage.class
+cl/evaluacion/qa/helpers/Helper.class
+cl/evaluacion/qa/helpers/PageWeb.class

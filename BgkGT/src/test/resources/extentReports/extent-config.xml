@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+	<configuration>
+		<!-- report theme -->
+		<!-- standard, dark -->
+		<theme>dark</theme>
+
+		<!-- document encoding -->
+		<!-- defaults to UTF-8 -->
+		<encoding>ISO-8859-1</encoding>
+
+		<!-- protocol for script and stylesheets -->
+		<!-- defaults to https -->
+		<protocol>https</protocol>
+
+		<!-- title of the document -->
+		<!-- Extent -->
+		<documentTitle>Reporte casos de prueba - portal trello</documentTitle>
+
+		<!-- report name - displayed at top-nav -->
+		<!-- Automation Report -->
+		<reportName>Automation Report</reportName>
+
+		<!-- location of charts in the test view -->
+		<!-- top, bottom -->
+		<testViewChartLocation>top</testViewChartLocation>
+
+		<!-- custom javascript -->
+		<scripts>
+            <![CDATA[
+                $(document).ready(function() {
+                    
+                });
+            ]]>
+		</scripts>
+
+		<!-- custom styles -->
+		<styles>
+            <![CDATA[
+                
+            ]]>
+		</styles>
+	</configuration>
+</extentreports>

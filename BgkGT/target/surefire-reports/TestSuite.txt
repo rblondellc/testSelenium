@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 8.304 s <<< FAILURE! - in TestSuite
+cl.evaluacion.qa.tests.TestTrello.inicioSesion  Time elapsed: 3.361 s  <<< FAILURE!
+java.lang.AssertionError: 
+expected [Your username is invalid!] but found [Your username is invalid!
+×]
+	at cl.evaluacion.qa.tests.TestTrello.inicioSesion(TestTrello.java:80)
+
