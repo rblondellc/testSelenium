@@ -48,7 +48,7 @@ public class LoginPage extends PageWeb {
    
 	
 	public void assertIngreso(String titulo) {
-		Assert.assertEquals(driver.findElement(validarIngreso).getText(), "Your username is invalid!");
+		Assert.assertEquals(driver.findElement(validarIngreso).getText(), titulo);
 
 	}
 }
