@@ -77,7 +77,7 @@ public class TestTrello {
 		test.log(LogStatus.INFO, "Usuario Incorrecto");
 		LoginPage login = new LoginPage(driver, test, TAKE_SS, 2);
 		login.inicioSesion(subDir);		
-		login.assertIngreso(subDir);
+		login.assertIngreso("Your username is invalid!");
 	}
 
 	
