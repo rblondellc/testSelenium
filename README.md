@@ -17,7 +17,7 @@ BgkGT/DRIVES -----> driver compatible con la version de chrome 134.0.6998.89 des
 MAC-X64 
 https://storage.googleapis.com/chrome-for-testing-public/134.0.6998.88/mac-x64/chromedriver-mac-x64.zip
 
-BgkGT/porm.xml ----> archivo de dependencias con maven
+BgkGT/pom.xml ----> archivo de dependencias con maven
 
 java version "22.0.2"
 
